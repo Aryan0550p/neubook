@@ -1,7 +1,7 @@
 [project]
-name = "vitodoo-backend"
+name = "neubook-backend"
 version = "0.1.0"
-description = "Vitodoo appointment booking API"
+description = "Neubook appointment booking API"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
@@ -15,6 +15,10 @@ dependencies = [
     "python-jose[cryptography]>=3.3.0",
     "email-validator>=2.2.0",
     "python-multipart>=0.0.17",
+    "phonepe-pg-sdk-python>=2.1.8",
+    "setuptools>=70.0.0",
+    "redis>=5.0.0",
+    "tzdata>=2026.2",
 ]
 
 [tool.pytest.ini_options]
